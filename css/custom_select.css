@@ -1,0 +1,32 @@
+.select{
+	display: inline-block;
+	margin-left: 5px;
+	position: relative;
+}
+
+.select ul{
+
+	padding: 5px;
+	margin: 0;
+	list-style-type: none;
+	display:none;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	position:absolute;
+	margin-top: 2px;
+
+}
+
+.select .value{
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	padding:3px;
+
+}
+.select ul li:hover{
+	background-color: #CCCCCC;
+	cursor: pointer;
+}
+.select ul li{
+	padding:5px;
+}
